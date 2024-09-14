@@ -1,5 +1,6 @@
 # Microservice-app
-Questa repository contiene un'applicazione completa basata su architettura a microservizi. Ogni funzionalità dell'applicazione è suddivisa in microservizi indipendenti, ciascuno con la propria repository, ma collegato centralmente tramite submodules. Questo progetto dimostra l'uso di tecnologie come Spring Boot, Spring Cloud, JWT, e vari pattern architetturali legati ai microservizi.
+Questa repository contiene un'applicazione completa basata su architettura a microservizi. Ogni funzionalità dell'applicazione è suddivisa in microservizi indipendenti, ciascuno con la propria repository. 
+Questo progetto dimostra l'uso di tecnologie come Spring Boot, Spring Cloud, JWT, e vari pattern architetturali legati ai microservizi.
 ### Tecnologie usate:
 - Spring Boot: Per lo sviluppo dei microservizi.
 - Spring Cloud Eureka: Per la gestione del Service Discovery e delle configurazioni centralizzate.
