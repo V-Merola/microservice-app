@@ -1,24 +1,38 @@
-# microservice-app
+# Microservice-app
 Questa repository contiene un'applicazione completa basata su architettura a microservizi. Ogni funzionalità dell'applicazione è suddivisa in microservizi indipendenti, ciascuno con la propria repository, ma collegato centralmente tramite submodules. Questo progetto dimostra l'uso di tecnologie come Spring Boot, Spring Cloud, JWT, e vari pattern architetturali legati ai microservizi.
 
-### Architettura dell'applicazione:
+## Architettura dell'applicazione:
 L'applicazione è composta dai seguenti microservizi:
 
-Authentication API: Gestisce l'autenticazione e la sicurezza tramite JWT.
+1. **Authentication API**
+   #### Gestisce l'autenticazione e la sicurezza tramite JWT.
+   [Link alla repository](https://github.com/V-Merola/authentication-api)
 
-Link alla repository
-User Microservice: Si occupa della gestione degli utenti e dei profili.
+2. **User Microservice**
+   #### Si occupa della gestione degli utenti e dei profili.
+   [Link alla repository](https://github.com/V-Merola/user-ms)
 
-Link alla repository
-API Gateway: Funziona come punto di accesso unificato, smistando le richieste tra i vari microservizi.
+3. **API Gateway**
+    #### Funziona come punto di accesso unificato, smistando le richieste tra i vari microservizi.
+    [Link alla repository](https://github.com/V-Merola/api-gateway)
 
-Link alla repository
-Service Discovery: Gestione della registrazione e scoperta dei microservizi tramite Eureka.
+4. **Service Discovery**
+   #### Gestione della registrazione e scoperta dei microservizi tramite Eureka.
+   [Link alla repository](https://github.com/V-Merola/discovery-ms)
 
-Link alla repository
-Event Microservice: Gestisce gli eventi asincroni dell'applicazione.
+5. **Event Microservice**
+   #### Gestisce gli eventi asincroni dell'applicazione.
+   [Link alla repository](https://github.com/V-Merola/event-ms)
 
-Link alla repository
-Config Server: Fornisce configurazioni centralizzate per i microservizi, permettendo una gestione unificata delle impostazioni.
+6. **Config Server**
+   #### Fornisce configurazioni centralizzate per i microservizi, permettendo una gestione unificata delle impostazioni.
+   [Link alla repository](https://github.com/V-Merola/ConfigServer)
 
-Link alla repository
+7. **Config Repo**
+   #### Fornisce repository con file di configurazione
+   [Link alla repository](https://github.com/V-Merola/config-repo)
+
+8. **Logging Monitoring**
+   #### Fornisce monitoraggio tramite Spring Admin Dashboard
+   [Link alla repository](https://github.com/V-Merola/logging-monitoring-ms)
+
