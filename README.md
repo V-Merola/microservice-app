@@ -14,25 +14,26 @@ L'applicazione è composta dai seguenti microservizi:
 
 1. [**Authentication API**](https://github.com/V-Merola/authentication-api)
    ###### Gestisce l'autenticazione e la sicurezza tramite JWT.
-
-2. [**User Microservice**](https://github.com/V-Merola/user-ms)
+   [**Flutter Frontend Authentication**](https://github.com/V-Merola/authentication-api-frontendF)
+   
+3. [**User Microservice**](https://github.com/V-Merola/user-ms)
    ###### Si occupa della gestione degli utenti e dei profili.
    
-3. [**API Gateway**](https://github.com/V-Merola/api-gateway)
+4. [**API Gateway**](https://github.com/V-Merola/api-gateway)
    ###### Funziona come punto di accesso unificato, smistando le richieste tra i vari microservizi.
 
-4. [**Service Discovery**](https://github.com/V-Merola/discovery-ms)
+5. [**Service Discovery**](https://github.com/V-Merola/discovery-ms)
    ###### Gestione della registrazione e scoperta dei microservizi tramite Eureka.
 
-5. [**Event Microservice**](https://github.com/V-Merola/event-ms)
+6. [**Event Microservice**](https://github.com/V-Merola/event-ms)
    ###### Gestisce la creazione di eventi
 
-6. [**Config Server**](https://github.com/V-Merola/ConfigServer)
+7. [**Config Server**](https://github.com/V-Merola/ConfigServer)
    ###### Fornisce configurazioni centralizzate per i microservizi, permettendo una gestione unificata delle impostazioni.
 
-7. [**Config Repo**](https://github.com/V-Merola/config-repo)
+8. [**Config Repo**](https://github.com/V-Merola/config-repo)
    ###### Fornisce repository con file di configurazione
 
-8. [**Logging Monitoring**](https://github.com/V-Merola/logging-monitoring-ms)
+9. [**Logging Monitoring**](https://github.com/V-Merola/logging-monitoring-ms)
    ###### Fornisce monitoraggio tramite Spring Admin Dashboard
 
