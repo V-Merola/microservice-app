@@ -13,7 +13,7 @@ Questo progetto dimostra l'uso di tecnologie come Spring Boot, Spring Cloud, JWT
 L'applicazione è composta dai seguenti microservizi:
 
 1. [**Authentication API**](https://github.com/V-Merola/authentication-api)
-   ###### Gestisce l'autenticazione e la sicurezza tramite JWT.
+   ###### Gestisce l'autenticazione e la sicurezza tramite token JWT.
    [**Flutter Frontend Authentication**](https://github.com/V-Merola/authentication-api-frontendF)
    
 3. [**User Microservice**](https://github.com/V-Merola/user-ms)
@@ -26,7 +26,7 @@ L'applicazione è composta dai seguenti microservizi:
    ###### Gestione della registrazione e scoperta dei microservizi tramite Eureka.
 
 6. [**Event Microservice**](https://github.com/V-Merola/event-ms)
-   ###### Gestisce la creazione di eventi
+   ###### Gestisce la creazione di eventi sportivi e l'organizzazione automatica di squadre e calendari
 
 7. [**Config Server**](https://github.com/V-Merola/ConfigServer)
    ###### Fornisce configurazioni centralizzate per i microservizi, permettendo una gestione unificata delle impostazioni.
